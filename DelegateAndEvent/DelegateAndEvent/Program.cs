@@ -5,11 +5,11 @@ namespace DelegatesAndEvents
     {
         static void Main(string[] args)
         {
-            DelegatesDemo delegatesDemo = new DelegatesDemo();
-             delegatesDemo.Run();
+           // DelegatesDemo delegatesDemo = new DelegatesDemo();
+             //delegatesDemo.Run();
 
-            // MultiCastDelegates multiCastDelegates = new MultiCastDelegates();
-            //multiCastDelegates.Run();
+             MultiCastDelegates multiCastDelegates = new MultiCastDelegates();
+            multiCastDelegates.Run();
 
             // EventDemo eventDemo = new EventDemo();
             //eventDemo.Run();
